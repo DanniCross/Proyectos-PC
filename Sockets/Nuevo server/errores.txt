@@ -1,0 +1,297 @@
+ip.c:1:1: error: expected identifier or ‘(’ before ‘/’ token
+ / C program to display hostname
+ ^
+In file included from /usr/include/stdio.h:43,
+                 from ip.c:3:
+/usr/include/bits/types/struct_FILE.h:95:3: error: nombre de tipo ‘size_t’ desconocido
+   size_t __pad5;
+   ^~~~~~
+/usr/include/bits/types/struct_FILE.h:98:67: error: ‘size_t’ no se declaró aquí (no en una función)
+   char _unused2[15 * sizeof (int) - 4 * sizeof (void *) - sizeof (size_t)];
+                                                                   ^~~~~~
+/usr/include/bits/types/struct_FILE.h:98:67: nota: ‘size_t’ is defined in header ‘<stddef.h>’; did you forget to ‘#include <stddef.h>’?
+/usr/include/bits/types/struct_FILE.h:1:1:
++#include <stddef.h>
+ /* Copyright (C) 1991-2018 Free Software Foundation, Inc.
+/usr/include/bits/types/struct_FILE.h:98:67:
+   char _unused2[15 * sizeof (int) - 4 * sizeof (void *) - sizeof (size_t)];
+                                                                   ^~~~~~
+In file included from ip.c:3:
+/usr/include/stdio.h:292:35: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern FILE *fmemopen (void *__s, size_t __len, const char *__modes)
+                                   ^~~~~~
+/usr/include/stdio.h:298:47: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern FILE *open_memstream (char **__bufloc, size_t *__sizeloc) __THROW __wur;
+                                               ^~~~~~
+/usr/include/stdio.h:309:20: error: expected declaration specifiers or ‘...’ before ‘size_t’
+       int __modes, size_t __n) __THROW;
+                    ^~~~~~
+/usr/include/stdio.h:315:10: error: expected declaration specifiers or ‘...’ before ‘size_t’
+          size_t __size) __THROW;
+          ^~~~~~
+/usr/include/stdio.h:354:44: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern int snprintf (char *__restrict __s, size_t __maxlen,
+                                            ^~~~~~
+/usr/include/stdio.h:358:45: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern int vsnprintf (char *__restrict __s, size_t __maxlen,
+                                             ^~~~~~
+/usr/include/stdio.h:610:30: error: expected declaration specifiers or ‘...’ before ‘size_t’
+                              size_t *__restrict __n, int __delimiter,
+                              ^~~~~~
+/usr/include/stdio.h:613:28: error: expected declaration specifiers or ‘...’ before ‘size_t’
+                            size_t *__restrict __n, int __delimiter,
+                            ^~~~~~
+/usr/include/stdio.h:623:27: error: expected declaration specifiers or ‘...’ before ‘size_t’
+                           size_t *__restrict __n,
+                           ^~~~~~
+/usr/include/stdio.h:652:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fread’
+ extern size_t fread (void *__restrict __ptr, size_t __size,
+               ^~~~~
+/usr/include/stdio.h:658:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fwrite’
+ extern size_t fwrite (const void *__restrict __ptr, size_t __size,
+               ^~~~~~
+/usr/include/stdio.h:679:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fread_unlocked’
+ extern size_t fread_unlocked (void *__restrict __ptr, size_t __size,
+               ^~~~~~~~~~~~~~
+/usr/include/stdio.h:681:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fwrite_unlocked’
+ extern size_t fwrite_unlocked (const void *__restrict __ptr, size_t __size,
+               ^~~~~~~~~~~~~~~
+In file included from ip.c:4:
+/usr/include/stdlib.h:97:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘__ctype_get_mb_cur_max’
+ extern size_t __ctype_get_mb_cur_max (void) __THROW __wur;
+               ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ip.c:4:
+/usr/include/stdlib.h:411:4: error: expected declaration specifiers or ‘...’ before ‘size_t’
+    size_t __statelen) __THROW __nonnull ((2));
+    ^~~~~~
+/usr/include/stdlib.h:441:4: error: expected declaration specifiers or ‘...’ before ‘size_t’
+    size_t __statelen,
+    ^~~~~~
+/usr/include/stdlib.h:539:22: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+                      ^~~~~~
+/usr/include/stdlib.h:541:22: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *calloc (size_t __nmemb, size_t __size)
+                      ^~~~~~
+/usr/include/stdlib.h:541:38: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *calloc (size_t __nmemb, size_t __size)
+                                      ^~~~~~
+/usr/include/stdlib.h:549:36: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *realloc (void *__ptr, size_t __size)
+                                    ^~~~~~
+In file included from /usr/include/stdlib.h:566,
+                 from ip.c:4:
+/usr/include/alloca.h:32:22: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *alloca (size_t __size) __THROW;
+                      ^~~~~~
+In file included from ip.c:4:
+/usr/include/stdlib.h:572:22: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *valloc (size_t __size) __THROW __attribute_malloc__ __wur;
+                      ^~~~~~
+/usr/include/stdlib.h:577:45: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+                                             ^~~~~~
+/usr/include/stdlib.h:577:65: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+                                                                 ^~~~~~
+/usr/include/stdlib.h:583:29: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *aligned_alloc (size_t __alignment, size_t __size)
+                             ^~~~~~
+/usr/include/stdlib.h:583:49: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *aligned_alloc (size_t __alignment, size_t __size)
+                                                 ^~~~~~
+/usr/include/stdlib.h:818:9: error: expected declaration specifiers or ‘...’ before ‘size_t’
+         size_t __nmemb, size_t __size, __compar_fn_t __compar)
+         ^~~~~~
+/usr/include/stdlib.h:818:25: error: expected declaration specifiers or ‘...’ before ‘size_t’
+         size_t __nmemb, size_t __size, __compar_fn_t __compar)
+                         ^~~~~~
+/usr/include/stdlib.h:827:34: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void qsort (void *__base, size_t __nmemb, size_t __size,
+                                  ^~~~~~
+/usr/include/stdlib.h:827:50: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void qsort (void *__base, size_t __nmemb, size_t __size,
+                                                  ^~~~~~
+/usr/include/stdlib.h:901:6: error: expected declaration specifiers or ‘...’ before ‘size_t’
+      size_t __len) __THROW __nonnull ((3, 4, 5));
+      ^~~~~~
+/usr/include/stdlib.h:904:6: error: expected declaration specifiers or ‘...’ before ‘size_t’
+      size_t __len) __THROW __nonnull ((3, 4, 5));
+      ^~~~~~
+/usr/include/stdlib.h:908:31: error: expected declaration specifiers or ‘...’ before ‘size_t’
+       char *__restrict __buf, size_t __len)
+                               ^~~~~~
+/usr/include/stdlib.h:912:31: error: expected declaration specifiers or ‘...’ before ‘size_t’
+       char *__restrict __buf, size_t __len)
+                               ^~~~~~
+/usr/include/stdlib.h:919:36: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern int mblen (const char *__s, size_t __n) __THROW;
+                                    ^~~~~~
+/usr/include/stdlib.h:923:34: error: expected declaration specifiers or ‘...’ before ‘size_t’
+      const char *__restrict __s, size_t __n) __THROW;
+                                  ^~~~~~
+/usr/include/stdlib.h:930:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘mbstowcs’
+ extern size_t mbstowcs (wchar_t *__restrict  __pwcs,
+               ^~~~~~~~
+/usr/include/stdlib.h:933:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘wcstombs’
+ extern size_t wcstombs (char *__restrict __s,
+               ^~~~~~~~
+In file included from ip.c:5:
+/usr/include/unistd.h:360:45: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern ssize_t read (int __fd, void *__buf, size_t __nbytes) __wur;
+                                             ^~~~~~
+/usr/include/unistd.h:366:52: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern ssize_t write (int __fd, const void *__buf, size_t __n) __wur;
+                                                    ^~~~~~
+/usr/include/unistd.h:376:46: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern ssize_t pread (int __fd, void *__buf, size_t __nbytes,
+                                              ^~~~~~
+/usr/include/unistd.h:384:53: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern ssize_t pwrite (int __fd, const void *__buf, size_t __n,
+                                                     ^~~~~~
+/usr/include/unistd.h:511:35: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern char *getcwd (char *__buf, size_t __size) __THROW __wur;
+                                   ^~~~~~
+In file included from ip.c:5:
+/usr/include/unistd.h:623:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘confstr’
+ extern size_t confstr (int __name, char *__buf, size_t __len) __THROW;
+               ^~~~~~~
+/usr/include/unistd.h:774:46: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern int ttyname_r (int __fd, char *__buf, size_t __buflen)
+                                              ^~~~~~
+/usr/include/unistd.h:809:29: error: expected declaration specifiers or ‘...’ before ‘size_t’
+     char *__restrict __buf, size_t __len)
+                             ^~~~~~
+/usr/include/unistd.h:820:31: error: expected declaration specifiers or ‘...’ before ‘size_t’
+       char *__restrict __buf, size_t __len)
+                               ^~~~~~
+/usr/include/unistd.h:856:38: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern int getlogin_r (char *__name, size_t __name_len) __nonnull ((1));
+                                      ^~~~~~
+In file included from ip.c:5:
+/usr/include/unistd.h:877:39: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern int gethostname (char *__name, size_t __len) __THROW __nonnull ((1));
+                                       ^~~~~~
+/usr/include/unistd.h:884:45: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern int sethostname (const char *__name, size_t __len)
+                                             ^~~~~~
+/usr/include/unistd.h:895:41: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern int getdomainname (char *__name, size_t __len)
+                                         ^~~~~~
+/usr/include/unistd.h:897:47: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern int setdomainname (const char *__name, size_t __len)
+                                               ^~~~~~
+/usr/include/unistd.h:915:57: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern int profil (unsigned short int *__sample_buffer, size_t __size,
+                                                         ^~~~~~
+/usr/include/unistd.h:916:6: error: expected declaration specifiers or ‘...’ before ‘size_t’
+      size_t __offset, unsigned int __scale)
+      ^~~~~~
+/usr/include/unistd.h:1161:33: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ int getentropy (void *__buffer, size_t __length) __wur;
+                                 ^~~~~~
+In file included from /usr/include/sys/socket.h:26,
+                 from /usr/include/netinet/in.h:23,
+                 from /usr/include/netdb.h:27,
+                 from ip.c:7:
+/usr/include/bits/types/struct_iovec.h:29:5: error: expected specifier-qualifier-list before ‘size_t’
+     size_t iov_len; /* Length of data.  */
+     ^~~~~~
+In file included from /usr/include/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from /usr/include/netdb.h:27,
+                 from ip.c:7:
+/usr/include/bits/socket.h:260:5: error: expected specifier-qualifier-list before ‘size_t’
+     size_t msg_iovlen;  /* Number of elements in the vector.  */
+     ^~~~~~
+/usr/include/bits/socket.h:274:5: error: expected specifier-qualifier-list before ‘size_t’
+     size_t cmsg_len;  /* Length of data in cmsg_data plus length
+     ^~~~~~
+In file included from /usr/include/netinet/in.h:23,
+                 from /usr/include/netdb.h:27,
+                 from ip.c:7:
+/usr/include/sys/socket.h:138:51: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern ssize_t send (int __fd, const void *__buf, size_t __n, int __flags);
+                                                   ^~~~~~
+/usr/include/sys/socket.h:145:45: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern ssize_t recv (int __fd, void *__buf, size_t __n, int __flags);
+                                             ^~~~~~
+/usr/include/sys/socket.h:152:53: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern ssize_t sendto (int __fd, const void *__buf, size_t __n,
+                                                     ^~~~~~
+/usr/include/sys/socket.h:163:60: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern ssize_t recvfrom (int __fd, void *__restrict __buf, size_t __n,
+                                                            ^~~~~~
+In file included from /usr/include/netdb.h:32,
+                 from ip.c:7:
+/usr/include/rpc/netdb.h:61:23: error: expected declaration specifiers or ‘...’ before ‘size_t’
+       char *__buffer, size_t __buflen,
+                       ^~~~~~
+/usr/include/rpc/netdb.h:65:25: error: expected declaration specifiers or ‘...’ before ‘size_t’
+         char *__buffer, size_t __buflen,
+                         ^~~~~~
+/usr/include/rpc/netdb.h:69:4: error: expected declaration specifiers or ‘...’ before ‘size_t’
+    size_t __buflen, struct rpcent **__result) __THROW;
+    ^~~~~~
+In file included from ip.c:7:
+/usr/include/netdb.h:166:29: error: expected declaration specifiers or ‘...’ before ‘size_t’
+     char *__restrict __buf, size_t __buflen,
+                             ^~~~~~
+/usr/include/netdb.h:173:32: error: expected declaration specifiers or ‘...’ before ‘size_t’
+        char *__restrict __buf, size_t __buflen,
+                                ^~~~~~
+/usr/include/netdb.h:179:32: error: expected declaration specifiers or ‘...’ before ‘size_t’
+        char *__restrict __buf, size_t __buflen,
+                                ^~~~~~
+/usr/include/netdb.h:185:33: error: expected declaration specifiers or ‘...’ before ‘size_t’
+         char *__restrict __buf, size_t __buflen,
+                                 ^~~~~~
+/usr/include/netdb.h:236:28: error: expected declaration specifiers or ‘...’ before ‘size_t’
+    char *__restrict __buf, size_t __buflen,
+                            ^~~~~~
+/usr/include/netdb.h:242:31: error: expected declaration specifiers or ‘...’ before ‘size_t’
+       char *__restrict __buf, size_t __buflen,
+                               ^~~~~~
+/usr/include/netdb.h:248:31: error: expected declaration specifiers or ‘...’ before ‘size_t’
+       char *__restrict __buf, size_t __buflen,
+                               ^~~~~~
+/usr/include/netdb.h:307:29: error: expected declaration specifiers or ‘...’ before ‘size_t’
+     char *__restrict __buf, size_t __buflen,
+                             ^~~~~~
+/usr/include/netdb.h:313:32: error: expected declaration specifiers or ‘...’ before ‘size_t’
+        char *__restrict __buf, size_t __buflen,
+                                ^~~~~~
+/usr/include/netdb.h:318:32: error: expected declaration specifiers or ‘...’ before ‘size_t’
+        char *__restrict __buf, size_t __buflen,
+                                ^~~~~~
+/usr/include/netdb.h:373:30: error: expected declaration specifiers or ‘...’ before ‘size_t’
+      char *__restrict __buf, size_t __buflen,
+                              ^~~~~~
+/usr/include/netdb.h:378:33: error: expected declaration specifiers or ‘...’ before ‘size_t’
+         char *__restrict __buf, size_t __buflen,
+                                 ^~~~~~
+/usr/include/netdb.h:383:35: error: expected declaration specifiers or ‘...’ before ‘size_t’
+           char *__restrict __buf, size_t __buflen,
+                                   ^~~~~~
+/usr/include/netdb.h:433:33: error: expected declaration specifiers or ‘...’ before ‘size_t’
+      char *__restrict __buffer, size_t __buflen);
+                                 ^~~~~~
+In file included from ip.c:11:
+/usr/include/arpa/inet.h:77:55: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern char *inet_neta (in_addr_t __net, char *__buf, size_t __len) __THROW;
+                                                       ^~~~~~
+/usr/include/arpa/inet.h:83:21: error: expected declaration specifiers or ‘...’ before ‘size_t’
+        char *__buf, size_t __len) __THROW;
+                     ^~~~~~
+/usr/include/arpa/inet.h:89:19: error: expected declaration specifiers or ‘...’ before ‘size_t’
+      void *__buf, size_t __len) __THROW;
+                   ^~~~~~
+ip.c: En la función ‘main’:
+ip.c:53:16: aviso: declaración implícita de la función ‘gethostname’; ¿quiso decir ‘gethostbyname’? [-Wimplicit-function-declaration]
+     hostname = gethostname(hostbuffer, sizeof(hostbuffer));
+                ^~~~~~~~~~~
+                gethostbyname
+ip.c:63:28: error: se solicitó conversión a un tipo que no es escalar
+                            host_entry->h_addr_list[0]));
+                            ^~~~~~~~~~
+

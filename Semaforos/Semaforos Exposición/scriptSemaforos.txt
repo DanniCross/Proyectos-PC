@@ -1,0 +1,21 @@
+                                    **Semaforos**
+
+¿Qué es?
+            - Mecanismo de sicronización
+            - Protejen el acceso a una "sección critica"
+
+Funciones
+            - int sem_init(sem_t *sem, int pshared, unsigned int value);
+            - int sem_wait(sem_t *sem);
+            - int sem_post(sem_t *sem);
+            - int sem_destroy(sem_t *sem);
+            - int sem_unlink(const char *__name);
+            - sem_t *sem_open(const char *__name, int __oflag, ...);
+
+Definicion
+            - sem_t *sem: referencia al Semaforos.
+            - int pshared: indica si es compartido entre procesos.
+            - unsigned int value: valor de inicialización el cual indica cuantos hilos o procesos 
+            pueden acceder a la sección critica simultaneamente.
+            - char *__name: es el nombre que le colocamos al semaforo.
+            - sección critica: recurso compartido el cual se debe protejer su integridad.
